@@ -1,0 +1,38 @@
+{
+  "name": "fract/laravel-fenom",
+  "description": "Fenom Template Engine for Laravel 7",
+  "keywords": [
+    "laravel",
+    "fenom",
+    "template",
+    "view"
+  ],
+  "authors": [
+    {
+      "name": "Fractal Studio",
+      "email": "studio@fract.ru"
+    }
+  ],
+  "license": "MIT",
+  "require": {
+    "php": ">=7.1.0",
+    "fenom/fenom": "2.*",
+    "illuminate/support": "7.*",
+    "illuminate/view": "7.*",
+    "illuminate/config": "7.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Fract\\Fenom\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "files": [
+      "tests/TestCase.php"
+    ]
+  },
+  "minimum-stability": "stable"
+}
